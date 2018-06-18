@@ -5,7 +5,7 @@ class GameOver extends React.Component{
   componentDidMount(){
     // console.log(`http://localhost:3002/updatescore/${this.props.user.id}`);
     if(this.props.user.id){
-        fetch(`http://localhost:3002/updatescore/${this.props.user.id}`, {
+        fetch(`https://pacific-depths-91216.herokuapp.com/${this.props.user.id}`, {
             method: 'put',
             headers: {'Content-Type':'application/json'},
             body: JSON.stringify({
