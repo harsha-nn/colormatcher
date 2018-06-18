@@ -1,0 +1,10 @@
+.Box {
+    width: 60px;
+    height: 60px;
+    position: absolute;  
+    border-radius: 50%;
+}
+/* div.Box {
+    content: url('candy.png');
+
+} */

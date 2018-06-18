@@ -1,0 +1,11 @@
+.RandomBox {
+    width: 60px;
+    height: 60px;
+    position: absolute;   
+}
+/* 
+div.RandomBox{
+    content: url('candy.png');
+    background-color: aqua;
+    color: black;
+} */

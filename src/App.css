@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  background-color: linear-gradient(to right, rgb(60, 48, 207), rgb(12, 211, 62));
+}
+
+.ScoreArea{
+  margin-top: 100px;
+  width: 790px;
+  height: 50px;
+  background-color: chartreuse; 
+}
+
+.Container {
+  width: 800px;
+  height: 500px;
+  /* display: flex; */
+  position: absolute;
+  text-align: center;
+  margin-top: 50px;
+  border: black;
+  margin-left: 200px;
+  background-color: beige;
+  border: 2px red solid;
+  /* justify-content: center; */
+  /* align-items: flex-end; */
+}
